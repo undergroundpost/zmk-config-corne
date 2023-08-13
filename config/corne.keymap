@@ -12,7 +12,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        base {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -20,14 +20,14 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-   &kp TAB  &kp Q  &kp W             &kp F         &kp P             &kp G        &kp J       &kp L            &kp U    &kp Y  &kp SEMICOLON  &kp DELETE
-&kp ESCAPE  &kp A  &kp R             &kp S         &kp T             &kp D        &kp H       &kp N            &kp E    &kp I          &kp O     &kp SQT
-     &sl 1  &kp Z  &kp X             &kp C         &kp V             &kp B        &kp K       &kp M        &kp COMMA  &kp DOT       &kp FSLH       &mo 2
+   &kp TAB  &kp Q  &kp W             &kp F         &kp P             &kp G        &kp J       &kp L            &kp U    &kp Y  &kp SEMICOLON  &kp DEL
+&kp ESCAPE  &kp A  &kp R             &kp S         &kp T             &kp D        &kp H       &kp N            &kp E    &kp I          &kp O  &kp SQT
+    &tog 1  &kp Z  &kp X             &kp C         &kp V             &kp B        &kp K       &kp M        &kp COMMA  &kp DOT       &kp FSLH    &mo 2
                           &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND    &kp SPACE  &kp RETURN  &kp RIGHT_SHIFT
             >;
         };
 
-        lower_layer {
+        symbols {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -37,12 +37,12 @@
             bindings = <
 &trans  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp MINUS              &trans             &trans  &kp UP_ARROW     &trans  &kp GRAVE  &trans
 &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6     &kp EQUAL       &kp BACKSLASH           &kp LEFT      &kp DOWN  &kp RIGHT     &trans  &trans
- &sl 0  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &kp LEFT_BRACKET  &kp RIGHT_BRACKET        &trans     &trans     &trans  &trans
+&trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &kp LEFT_BRACKET  &kp RIGHT_BRACKET        &trans     &trans     &trans  &trans
                                     &trans        &trans        &trans              &trans             &trans        &trans
             >;
         };
 
-        raise_layer {
+        media {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -52,7 +52,7 @@
             bindings = <
     &trans  &trans        &trans        &trans        &trans        &trans    &trans  &kp C_VOLUME_DOWN        &kp K_MUTE  &kp C_VOLUME_UP  &trans  &trans
 &bt BT_CLR  &trans  &bt BT_SEL 4        &trans        &trans        &trans    &trans         &kp C_PREV  &kp C_PLAY_PAUSE       &kp C_NEXT  &trans  &trans
-     &sl 1  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 0    &trans             &trans            &trans           &trans  &trans  &trans
+    &trans  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 0    &trans             &trans            &trans           &trans  &trans  &trans
                                         &trans        &trans        &trans    &trans             &trans            &trans
             >;
         };
