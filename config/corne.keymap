@@ -13,7 +13,7 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -34,7 +34,7 @@
 &lt 3 TAB  &kp Q  &kp W               &kp E           &kp R               &kp T             &kp Y      &kp U                &kp I            &kp O                &kp P     &kp BACKSPACE
 &lt 2 ESC  &kp A  &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_COMMAND F  &kp G             &kp H      &hm RIGHT_COMMAND J  &hm RIGHT_ALT K  &hm RIGHT_CONTROL L  &kp SEMI  &kp SQT
 &none      &kp Z  &kp X               &kp C           &kp V               &kp B             &kp N      &kp M                &kp COMMA        &kp DOT              &kp FSLH  &none
-                                      &none           &none               &kp LEFT_SHIFT    &kp SPACE  &kp RETURN           &mo 1
+                                      &none           &none               &sk LEFT_SHIFT    &kp SPACE  &kp RETURN           &mo 1
             >;
 
             label = "hackd";
