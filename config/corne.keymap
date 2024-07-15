@@ -8,10 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-&mt {
-    tapping-term-ms = <250>;
-};
-
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -25,12 +21,12 @@
 
             bindings = <
 &lt 3 TAB  &kp Q               &kp W           &kp E               &kp R             &kp T               &kp Y      &kp U              &kp I                &kp O            &kp P                   &kp BACKSPACE
-&lt 2 ESC  &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_COMMAND D  &mt LEFT_SHIFT F  &kp G               &kp H      &mt RIGHT_SHIFT J  &mt RIGHT_COMMAND K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL SEMI  &kp SQT
+&lt 2 ESC  &ht_tp LEFT_CONTROL A  &ht_tp LEFT_ALT S  &ht_tp LEFT_COMMAND D  &ht_tp LEFT_SHIFT F  &kp G               &kp H      &ht_tp RIGHT_SHIFT J  &ht_tp RIGHT_COMMAND K  &ht_tp RIGHT_ALT L  &ht_tp RIGHT_CONTROL SEMI  &kp SQT
 &none      &kp Z               &kp X           &kp C               &kp V             &kp B               &kp N      &kp M              &kp COMMA            &kp DOT          &kp FSLH                &none
                                                &kp LEFT_CONTROL    &kp LEFT_ALT      &kp LEFT_COMMAND    &kp SPACE  &kp RETURN         &mo 1
             >;
 
-            label = "QWERTY";
+            label = "cyberpnkd";
         };
 
         NUMPAD {
@@ -47,7 +43,7 @@
                                      &trans        &trans        &trans          &trans                &trans                 &trans
             >;
 
-            label = "NUMPAD";
+            label = "num&sym";
         };
 
         NAVIGATION {
@@ -58,7 +54,7 @@
                                         &trans           &trans  &trans    &trans  &trans  &trans
             >;
 
-            label = "NAV";
+            label = "nav";
         };
 
         MEDIA {
@@ -75,7 +71,7 @@
                                   &trans        &trans        &trans          &trans  &trans             &trans
             >;
 
-            label = "MEDIA";
+            label = "media&bt";
         };
     };
 };
