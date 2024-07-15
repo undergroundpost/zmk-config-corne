@@ -26,7 +26,7 @@
                                                &kp LEFT_CONTROL    &kp LEFT_ALT      &kp LEFT_COMMAND    &kp SPACE  &kp RETURN         &mo 1
             >;
 
-            label = "cyberpnkd";
+            label = "hackd";
         };
 
         NUMPAD {
@@ -43,7 +43,7 @@
                                      &trans        &trans        &trans          &trans                &trans                 &trans
             >;
 
-            label = "num&sym";
+            label = "numpad";
         };
 
         NAVIGATION {
@@ -71,7 +71,7 @@
                                   &trans        &trans        &trans          &trans  &trans             &trans
             >;
 
-            label = "media&bt";
+            label = "media";
         };
     };
 };
