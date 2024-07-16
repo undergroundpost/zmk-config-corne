@@ -59,8 +59,8 @@
 
         NAVIGATION {
             bindings = <
-&trans  &kp LG(GRAVE)     &trans    &kp UP_ARROW    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(UP_ARROW)  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(UP_ARROW)  &trans    &kp UP_ARROW    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(GRAVE)     &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans            &trans    &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans          &trans     &trans    &trans  &trans  &trans
             >;
