@@ -60,7 +60,7 @@
         NAVIGATION {
             bindings = <
 &trans  &none   &trans    &kp UP_ARROW    &trans     &trans    &trans  &kp RS(RA(RC(RG(NUMBER_1))))  &kp RS(RA(RC(RG(NUMBER_2))))  &kp RS(RA(RC(RG(NUMBER_3))))  &kp RS(RA(RC(RG(NUMBER_4))))  &trans
-&trans  &none   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans  &kp RG(GRAVE)                 &kp RC(UP_ARROW)              &kp RG(F3)                    &kp RC(RG(H))                 &trans
+&trans  &none   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans  &kp RG(GRAVE)                 &kp RC(UP_ARROW)              &kp RG(F11)                   &kp RG(RA(H))                 &trans
 &trans  &trans  &trans    &trans          &trans     &trans    &trans  &trans                        &trans                        &trans                        &trans                        &trans
                           &trans          &trans     &trans    &trans  &trans                        &trans
             >;
