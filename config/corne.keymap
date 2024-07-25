@@ -31,10 +31,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q  &kp W               &kp E           &kp R                     &kp T          &kp Y        &kp U                      &kp I            &kp O                &kp P     &none
-&none  &kp A  &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_GUI F            &kp G          &kp H        &kp J                      &hm RIGHT_ALT K  &hm RIGHT_CONTROL L  &kp SEMI  &none
-&none  &kp Z  &kp X               &kp C           &kp V                     &kp B          &kp N        &kp M                      &kp COMMA        &kp DOT              &kp FSLH  &none
-                                  &kp ESCAPE      &mt LEFT_SHIFT BACKSPACE  &lt 1 ENTER    &lt 2 SPACE  &mt RIGHT_SHIFT BACKSPACE  &kp TAB
+&none  &kp Q  &kp W               &kp E           &kp R           &kp T               &kp Y              &kp U            &kp I            &kp O                &kp P     &none
+&none  &kp A  &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_GUI F  &hm LEFT_SHIFT G    &hm H RIGHT_SHIFT  &hm RIGHT_GUI J  &hm RIGHT_ALT K  &hm RIGHT_CONTROL L  &kp SEMI  &none
+&none  &kp Z  &kp X               &kp C           &kp V           &kp B               &kp N              &kp M            &kp COMMA        &kp DOT              &kp FSLH  &none
+                                  &mt ESCAPE TAB  &kp BACKSPACE   &lt 1 ENTER         &lt 2 SPACE        &kp BACKSPACE    &mt ESCAPE TAB
             >;
 
             label = "base";
@@ -48,10 +48,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp STAR      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS        &mt RIGHT_BRACE LEFT_BRACE              &kp UNDER        &kp AMPERSAND  &kp PERCENT  &kp DOLLAR          &trans
-&trans  &kp SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS       &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp EXCLAMATION  &kp AT         &kp HASH     &kp DOUBLE_QUOTES   &trans
-&trans  &kp KP_EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &mt RIGHT_BRACKET LEFT_BRACKET          &kp SQT          &kp GRAVE      &kp CARET    &mt PIPE BACKSLASH  &trans
-                                    &trans        &trans        &trans          &trans                                  &trans           &trans
+&trans  &kp STAR      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS         &mt RIGHT_BRACE LEFT_BRACE              &kp UNDER        &kp AMPERSAND  &kp PERCENT  &kp DOLLAR          &trans
+&trans  &kp SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS        &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp EXCLAMATION  &kp AT         &kp HASH     &kp DOUBLE_QUOTES   &trans
+&trans  &kp KP_EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt PERIOD N0    &mt RIGHT_BRACKET LEFT_BRACKET          &kp SQT          &kp GRAVE      &kp CARET    &mt PIPE BACKSLASH  &trans
+                                    &trans        &trans        &trans           &trans                                  &trans           &trans
             >;
 
             label = "numpad";
