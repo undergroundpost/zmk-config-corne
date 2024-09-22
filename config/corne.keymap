@@ -65,7 +65,7 @@
                           &trans    &trans     &trans    &trans  &trans  &trans
             >;
 
-            label = "navigation";
+            label = "navi";
         };
 
         FUNCTION {
@@ -75,6 +75,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
+            label = "fun";
         };
 
         MEDIA {
@@ -84,6 +85,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans            &trans           &trans  &bt BT_PRV
                         &trans  &trans  &trans    &trans  &trans             &trans
             >;
+            label = "media";
         };
     };
 };
