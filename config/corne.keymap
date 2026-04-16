@@ -33,7 +33,7 @@
         BASE {
             label = "base";
             bindings = <
-&trans  &hm ESC Q           &kp W           &kp F               &kp P             &kp G          &kp J      &kp L              &kp U                &kp Y            &kp SEMICOLON        &trans
+&trans  &kp Q               &kp W           &kp F               &kp P             &kp G          &kp J      &kp L              &kp U                &kp Y            &kp SEMICOLON        &trans
 &trans  &hm LEFT_CONTROL A  &hm LEFT_ALT R  &hm LEFT_COMMAND S  &hm LEFT_SHIFT T  &kp D          &kp H      &hm RIGHT_SHIFT N  &hm RIGHT_COMMAND E  &hm RIGHT_ALT I  &hm RIGHT_CONTROL O  &trans
 &trans  &kp Z               &kp X           &kp C               &kp V             &kp B          &kp K      &kp M              &kp COMMA            &kp DOT          &kp FSLH             &trans
                                             &lt 2 TAB           &kp BACKSPACE     &lt 1 ENTER    &kp SPACE  &lt 3 APOSTROPHE   &lt 4 TILDE
@@ -59,10 +59,10 @@
 
         NAVIGATION {
             bindings = <
-&trans  &trans  &trans    &kp UP    &trans     &trans    &trans  &trans  &trans  &trans  &tdbt   &trans
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans    &trans     &trans    &trans  &trans  &trans
+&kp ESCAPE  &trans  &trans    &kp UP    &trans     &trans    &trans  &trans  &trans  &trans  &tdbt   &trans
+&trans      &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans    &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans    &trans     &trans    &trans  &trans  &trans
             >;
 
             label = "navi";
