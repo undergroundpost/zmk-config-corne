@@ -2,15 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: undergroundpost
-      url-base: https://github.com/undergroundpost
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: kibodo-firmware
-      remote: undergroundpost
-      revision: main
   self:
     path: config

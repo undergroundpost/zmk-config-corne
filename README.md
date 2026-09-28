@@ -26,8 +26,9 @@ This repository contains the ZMK configuration for my wireless **Corne (CRKBD) 5
 ### 🅱 Base Layer (Colemak)
 
 - Miryoku-style home-row mods:
-  - Left: `A`=Ctrl, `R`=Alt, `S`=Cmd, `T`=Shift
-  - Right: `N`=Shift, `E`=Cmd, `I`=Alt, `O`=Ctrl
+  - Left: `A`=Super, `R`=Alt, `S`=Ctrl, `T`=Shift
+  - Right: `N`=Shift, `E`=Ctrl, `I`=Alt, `O`=Super
+  - Right-side Alt is `LALT` on purpose (`RALT` is AltGr on Linux)
 - Thumb keys: Tab, Backspace, Enter, Space, Apostrophe, Tilde
 - Layout prioritizes minimal hand movement and reduced pinky use
 
@@ -38,7 +39,10 @@ This repository contains the ZMK configuration for my wireless **Corne (CRKBD) 5
 
 ### 🧭 Navigation Layer
 
-- Arrows and cursor movement keys
+- Left-hand only, so it works with the right hand on the mouse
+- Esc, Super (tap for the GNOME overview), and arrows
+- Workspace previous/next (Super+PgUp / Super+PgDn) flanking Up
+- Print Screen on the inner column
 - Tap-dance-enabled Bluetooth switching (`BT1`, `BT2`, `CLR`)
 
 ### 🔧 Function Layer
