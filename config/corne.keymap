@@ -102,7 +102,7 @@
             label = "navi";
             bindings = <
 &trans  &kp ESCAPE  &kp LG(PG_UP)  &kp UP    &kp LG(PG_DN)  &kp PSCRN    &trans  &trans  &trans  &trans  &tdbt   &trans
-&trans  &kp LGUI    &kp LEFT       &kp DOWN  &kp RIGHT      &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LGUI    &kp LEFT       &kp DOWN  &kp RIGHT      &kp DELETE   &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans      &trans         &trans    &trans         &trans       &trans  &trans  &trans  &trans  &trans  &trans
                                    &trans    &trans         &trans       &trans  &trans  &trans
             >;

@@ -42,7 +42,7 @@ This repository contains the ZMK configuration for my wireless **Corne (CRKBD) 5
 - Left-hand only, so it works with the right hand on the mouse
 - Esc, Super (tap for the GNOME overview), and arrows
 - Workspace previous/next (Super+PgUp / Super+PgDn) flanking Up
-- Print Screen on the inner column
+- Print Screen and Delete on the inner column
 - Tap-dance-enabled Bluetooth switching (`BT1`, `BT2`, `CLR`)
 
 ### 🔧 Function Layer
