@@ -82,7 +82,7 @@
             label = "base";
             bindings = <
 &trans  &kp Q          &kp W         &kp F          &kp P          &kp G          &kp J      &kp L          &kp U         &kp Y          &kp SEMICOLON  &trans
-&trans  &hm_o LGUI A   &hm_r LALT R  &hm_m LCTRL S  &hm_i LSHFT T  &kp D          &kp H      &hm_i RSHFT N  &hm_m RCTRL E &hm_r LALT I   &hm_o RGUI O   &trans
+&trans  &hm_o LCTRL A  &hm_r LALT R  &hm_m LGUI S   &hm_i LSHFT T  &kp D          &kp H      &hm_i RSHFT N  &hm_m RGUI E  &hm_r LALT I   &hm_o RCTRL O  &trans
 &trans  &kp Z          &kp X         &kp C          &kp V          &kp B          &kp K      &kp M          &kp COMMA     &kp DOT        &kp FSLH       &trans
                                      &lt 2 TAB      &kp BACKSPACE  &lt 1 ENTER    &kp SPACE  &lt 4 APOS     &lt 3 GRAVE
             >;
@@ -101,10 +101,10 @@
         NAVIGATION {
             label = "navi";
             bindings = <
-&trans  &kp ESCAPE  &kp LG(PG_UP)  &kp UP    &kp LG(PG_DN)  &kp PSCRN    &trans  &trans  &trans  &trans  &tdbt   &trans
-&trans  &kp LGUI    &kp LEFT       &kp DOWN  &kp RIGHT      &kp DELETE   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans         &trans    &trans         &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans    &trans         &trans       &trans  &trans  &trans
+&trans  &kp ESCAPE  &kp LS(LG(TAB))  &kp UP    &kp LG(TAB)  &kp PSCRN    &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)  &trans
+&trans  &kp HOME    &kp LEFT          &kp DOWN  &kp RIGHT    &kp END      &kp DELETE  &kp LSHFT   &kp LGUI    &kp LALT    &kp LCTRL   &trans
+&trans  &trans      &trans            &trans    &trans       &trans       &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &tdbt       &trans
+                                      &trans    &trans       &trans       &trans      &trans      &trans
             >;
         };
 

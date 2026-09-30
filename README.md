@@ -26,8 +26,10 @@ This repository contains the ZMK configuration for my wireless **Corne (CRKBD) 5
 ### 🅱 Base Layer (Colemak)
 
 - Miryoku-style home-row mods:
-  - Left: `A`=Super, `R`=Alt, `S`=Ctrl, `T`=Shift
-  - Right: `N`=Shift, `E`=Ctrl, `I`=Alt, `O`=Super
+  - Left: `A`=Ctrl, `R`=Alt, `S`=Super, `T`=Shift
+  - Right: `N`=Shift, `E`=Super, `I`=Alt, `O`=Ctrl
+  - Super sits on the middle finger (Mac Cmd position): Omarchy/Hyprland uses
+    Super the way macOS uses Cmd, so it gets the faster, stronger finger
   - Right-side Alt is `LALT` on purpose (`RALT` is AltGr on Linux)
 - Thumb keys: Tab, Backspace, Enter, Space, Apostrophe, Tilde
 - Layout prioritizes minimal hand movement and reduced pinky use
@@ -39,11 +41,24 @@ This repository contains the ZMK configuration for my wireless **Corne (CRKBD) 5
 
 ### 🧭 Navigation Layer
 
-- Left-hand only, so it works with the right hand on the mouse
-- Esc, Super (tap for the GNOME overview), and arrows
-- Workspace previous/next (Super+PgUp / Super+PgDn) flanking Up
-- Print Screen and Delete on the inner column
-- Tap-dance-enabled Bluetooth switching (`BT1`, `BT2`, `CLR`)
+Navigation plus window management for Omarchy/Hyprland. Held from the left thumb (Tab).
+
+```
+ Esc   WS←   ↑    WS→  PrtSc     WS1   WS2   WS3   WS4   WS5
+ Home  ←     ↓    →    End       Del   Shift Super Alt   Ctrl
+ ·     ·     ·    ·    ·         WS6   WS7   WS8   WS9   BT
+```
+
+- Left hand: arrows, Home/End, Esc, Print Screen, and previous/next
+  workspace (Super+Shift+Tab / Super+Tab) flanking Up. Usable one-handed
+  with the right hand on the mouse
+- Right top/bottom rows: jump to workspace 1–9 (Super+N)
+- Right home row: plain (non-hold-tap) modifiers, same order as the base
+  layer, to combine with the left-hand keys:
+  - Super + arrows: focus window; Super + Shift + arrows: swap window
+  - Shift + a workspace key: move the window to that workspace
+  - Shift/Ctrl + arrows: select / jump by word
+- Tap-dance-enabled Bluetooth switching (`BT1`, `BT2`, `CLR`) in the corner
 
 ### 🔧 Function Layer
 
