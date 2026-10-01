@@ -44,19 +44,17 @@ This repository contains the ZMK configuration for my wireless **Corne (CRKBD) 5
 Navigation plus window management for Omarchy/Hyprland. Held from the left thumb (Tab).
 
 ```
- Esc   WS←   ↑    WS→  PrtSc     WS1   WS2   WS3   WS4   WS5
+ Esc   WS←   ↑    WS→  PrtSc     ·     ·     ·     ·     ·
  Home  ←     ↓    →    End       Del   Shift Super Alt   Ctrl
- ·     ·     ·    ·    ·         WS6   WS7   WS8   WS9   BT
+ ·     ·     ·    ·    ·         ·     ·     ·     ·     BT
 ```
 
 - Left hand: arrows, Home/End, Esc, Print Screen, and previous/next
   workspace (Super+Shift+Tab / Super+Tab) flanking Up. Usable one-handed
   with the right hand on the mouse
-- Right top/bottom rows: jump to workspace 1–9 (Super+N)
 - Right home row: plain (non-hold-tap) modifiers, same order as the base
   layer, to combine with the left-hand keys:
   - Super + arrows: focus window; Super + Shift + arrows: swap window
-  - Shift + a workspace key: move the window to that workspace
   - Shift/Ctrl + arrows: select / jump by word
 - Tap-dance-enabled Bluetooth switching (`BT1`, `BT2`, `CLR`) in the corner
 
@@ -64,6 +62,16 @@ Navigation plus window management for Omarchy/Hyprland. Held from the left thumb
 
 - Traditional F-keys (F1–F12) mapped in a logical grid
 - Primarily for dev/debug/IDE access
+
+```
+ ·     WS7   WS8   WS9   ·         F9    F10   F11   F12
+ Shift WS4   WS5   WS6   ·         F5    F6    F7    F8
+ ·     WS1   WS2   WS3   WS10      F1    F2    F3    F4
+```
+
+- Left hand: jump to workspace (Super+1–9, Super+0) laid out like the numpad
+  layer's digits, so workspace N is under the same finger as the number N
+- Left pinky Shift + a workspace key: move the window to that workspace
 
 ### 🎵 Media Layer
 
