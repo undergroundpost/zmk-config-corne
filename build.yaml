@@ -14,3 +14,10 @@ include:
   - board: xiao_ble//zmk
     shield: settings_reset
     artifact-name: xiao_ble_settings_reset
+  # Second Corne: no dongle, no displays. The left half is the central.
+  - board: nice_nano//zmk
+    shield: corne_left
+    artifact-name: corne_left_standalone
+  - board: nice_nano//zmk
+    shield: corne_right
+    artifact-name: corne_right_nodisplay
